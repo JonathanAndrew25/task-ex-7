@@ -1,0 +1,76 @@
+th, td{
+    text-align: left;
+    padding: 16px 22px;
+}
+th{
+    width: 800px;
+}
+.img{
+    border-radius: 50%;
+}
+.name{
+    padding-left: 8%;
+}
+.main-table{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+}
+.title{
+    padding-left: 13%;
+}
+.justify-content{
+    padding: 45px;
+}
+.masking{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4em;
+    border: 40px solid rgb(255, 255, 255);
+}
+.danger{
+    background: #DC4C64;
+}
+.success{
+    background: #14A44D;
+}
+.warning{
+    background-color: #E4A11B;
+}
+.danger, .success, .warning{
+    padding: 3px 7px 3px 7px;
+    border-radius: 4px;
+    color: white;
+}
+.cancel, .add-task{
+    border-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.cancel{
+    background-color: white;
+    color: rgb(70, 85, 170);
+    margin-left: 80%;
+}
+.add-task{
+    background-color: rgb(70, 85, 170);
+    color: white;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.check{
+    color: #14A44D;
+}
+.trash{
+    color: #DC4C64;
+    margin-left: 20px;
+}
+.tooltip{
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    
+}
+.task{
+    font-size: 20px;
+}
